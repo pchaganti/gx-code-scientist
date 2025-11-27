@@ -90,7 +90,7 @@ What you'll find in this repository:
 
 ## 0. Paper 
 
-*CodeScientist* is described in the following paper: [CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation](https://arxiv.org/abs/2503.22708).
+*CodeScientist* is described in the following paper: [CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation (ACL Findings 2025)](https://aclanthology.org/2025.findings-acl.692/).
 
 ![codescientist-paper](images/codescientist-paper.png)
 
@@ -858,15 +858,32 @@ All this is to say: The only API keys you should provide to *CodeScientist* are 
 ## 13. Citation
 If you use this work, please reference the following citation:
 ```
-@misc{jansen2025codescientistendtoendsemiautomatedscientific,
-      title={CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation}, 
-      author={Peter Jansen and Oyvind Tafjord and Marissa Radensky and Pao Siangliulue and Tom Hope and Bhavana Dalvi Mishra and Bodhisattwa Prasad Majumder and Daniel S. Weld and Peter Clark},
-      year={2025},
-      eprint={2503.22708},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2503.22708}, 
-} 
+@inproceedings{jansen-etal-2025-codescientist,
+    title = "{C}ode{S}cientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation",
+    author = "Jansen, Peter  and
+      Tafjord, Oyvind  and
+      Radensky, Marissa  and
+      Siangliulue, Pao  and
+      Hope, Tom  and
+      Dalvi Mishra, Bhavana  and
+      Majumder, Bodhisattwa Prasad  and
+      Weld, Daniel S  and
+      Clark, Peter",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.692/",
+    doi = "10.18653/v1/2025.findings-acl.692",
+    pages = "13370--13467",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Despite the surge of interest in autonomous scientific discovery (ASD) of software artifacts (e.g., improved ML algorithms), current ASD systems face two key limitations: (1) they largely explore variants of existing codebases or similarly constrained design spaces, and (2) they produce large volumes of research artifacts (such as automatically generated papers and code) that are typically evaluated using conference-style paper review with limited evaluation of code. In this work we introduce CodeScientist, a novel ASD system that frames ideation and experiment construction as a form of genetic search jointly over combinations of research articles and codeblocks defining common actions in a domain (like prompting a language model). We use this paradigm to conduct hundreds of automated experiments on machine-generated ideas broadly in the domain of agents and virtual environments, with the system returning 19 discoveries, 6 of which were judged as being both at least minimally sound and incrementally novel after a multi-faceted evaluation beyond that typically conducted in prior work, including external (conference-style) review, code review, and replication attempts. Moreover, the discoveries span new tasks, agents, metrics, and data, suggesting a qualitative shift from benchmark optimization to broader discoveries."
+}
 ```
 
 <span id="14-license"/>
